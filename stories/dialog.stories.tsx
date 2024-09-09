@@ -7,14 +7,14 @@ import {
   DialogFooter,
   DialogHeader,
   DialogTitle,
-  DialogTrigger,
+  DialogTrigger
 } from '@/components/ui/dialog';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 
 const meta: Meta = {
   title: 'UI/Dialog',
-  component: Dialog,
+  component: Dialog
 } satisfies Meta<typeof Dialog>;
 
 export default meta;
@@ -29,9 +29,7 @@ export const Default: Story = {
       <DialogContent className="sm:max-w-[425px]">
         <DialogHeader>
           <DialogTitle>Edit profile</DialogTitle>
-          <DialogDescription>
-            Make changes to your profile here. Click save when you&apos;re done.
-          </DialogDescription>
+          <DialogDescription>Make changes to your profile here. Click save when you&apos;re done.</DialogDescription>
         </DialogHeader>
         <div className="grid gap-4 py-4">
           <div className="grid grid-cols-4 items-center gap-4">
@@ -52,5 +50,5 @@ export const Default: Story = {
         </DialogFooter>
       </DialogContent>
     </Dialog>
-  ),
+  )
 };

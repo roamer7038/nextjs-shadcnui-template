@@ -3,10 +3,10 @@ import { Switch } from '@/components/ui/switch';
 
 const meta: Meta = {
   title: 'UI/Switch',
-  component: Switch,
+  component: Switch
 } satisfies Meta<typeof Switch>;
 
 export default meta;
 type Story = StoryObj<typeof Switch>;
 
-export const Default: Story = {}
+export const Default: Story = {};

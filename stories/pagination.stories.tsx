@@ -6,12 +6,12 @@ import {
   PaginationItem,
   PaginationLink,
   PaginationNext,
-  PaginationPrevious,
-} from "@/components/ui/pagination"
+  PaginationPrevious
+} from '@/components/ui/pagination';
 
 const meta: Meta = {
   title: 'UI/Pagination',
-  component: Pagination,
+  component: Pagination
 } satisfies Meta<typeof Pagination>;
 
 export default meta;
@@ -44,4 +44,4 @@ export const Default: Story = {
       </PaginationContent>
     </Pagination>
   )
-}
+};

@@ -4,7 +4,7 @@ import { Toggle } from '@/components/ui/toggle';
 
 const meta: Meta = {
   title: 'UI/Toggle',
-  component: Toggle,
+  component: Toggle
 } satisfies Meta<typeof Toggle>;
 
 export default meta;
@@ -15,5 +15,5 @@ export const Default: Story = {
     <Toggle aria-label="Toggle italic">
       <FontBoldIcon className="h-4 w-4" />
     </Toggle>
-  ),
+  )
 };

@@ -3,10 +3,10 @@ import { Textarea } from '@/components/ui/textarea';
 
 const meta: Meta = {
   title: 'UI/Textarea',
-  component: Textarea,
+  component: Textarea
 } satisfies Meta<typeof Textarea>;
 
 export default meta;
 type Story = StoryObj<typeof Textarea>;
 
-export const Default: Story = {}
+export const Default: Story = {};

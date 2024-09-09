@@ -4,7 +4,7 @@ import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 
 const meta: Meta = {
   title: 'UI/RadioGroup',
-  component: RadioGroup,
+  component: RadioGroup
 } satisfies Meta<typeof RadioGroup>;
 
 export default meta;
@@ -26,5 +26,5 @@ export const Default: Story = {
         <Label htmlFor="r3">Compact</Label>
       </div>
     </RadioGroup>
-  ),
+  )
 };

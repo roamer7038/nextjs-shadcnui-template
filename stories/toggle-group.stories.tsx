@@ -1,15 +1,11 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import {
-  FontBoldIcon,
-  FontItalicIcon,
-  UnderlineIcon,
-} from '@radix-ui/react-icons';
+import { FontBoldIcon, FontItalicIcon, UnderlineIcon } from '@radix-ui/react-icons';
 
 import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
 
 const meta: Meta = {
   title: 'UI/ToggleGroup',
-  component: ToggleGroup,
+  component: ToggleGroup
 } satisfies Meta<typeof ToggleGroup>;
 
 export default meta;
@@ -28,5 +24,5 @@ export const Default: Story = {
         <UnderlineIcon className="h-4 w-4" />
       </ToggleGroupItem>
     </ToggleGroup>
-  ),
+  )
 };

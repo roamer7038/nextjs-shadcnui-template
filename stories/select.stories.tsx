@@ -6,11 +6,11 @@ import {
   SelectItem,
   SelectLabel,
   SelectTrigger,
-  SelectValue,
+  SelectValue
 } from '@/components/ui/select';
 const meta: Meta = {
   title: 'UI/Select',
-  component: Select,
+  component: Select
 } satisfies Meta<typeof Select>;
 
 export default meta;
@@ -33,5 +33,5 @@ export const Default: Story = {
         </SelectGroup>
       </SelectContent>
     </Select>
-  ),
+  )
 };

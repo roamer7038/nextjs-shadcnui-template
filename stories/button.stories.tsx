@@ -8,26 +8,19 @@ const meta: Meta = {
     children: 'Click me',
     variant: 'default',
     size: 'default',
-    disabled: false,
+    disabled: false
   },
   argTypes: {
     variant: {
-      options: [
-        'default',
-        'destructive',
-        'outline',
-        'secondary',
-        'ghost',
-        'link',
-      ],
-      control: { type: 'radio' },
+      options: ['default', 'destructive', 'outline', 'secondary', 'ghost', 'link'],
+      control: { type: 'radio' }
     },
     size: {
       options: ['default', 'sm', 'lg', 'icon'],
-      control: { type: 'radio' },
+      control: { type: 'radio' }
     },
-    asChild: { control: { type: 'boolean' } },
-  },
+    asChild: { control: { type: 'boolean' } }
+  }
 } satisfies Meta<typeof Button>;
 
 export default meta;

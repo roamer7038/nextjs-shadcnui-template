@@ -7,12 +7,12 @@ import {
   TableFooter,
   TableHead,
   TableHeader,
-  TableRow,
+  TableRow
 } from '@/components/ui/table';
 
 const meta: Meta = {
   title: 'UI/Table',
-  component: Table,
+  component: Table
 } satisfies Meta<typeof Table>;
 
 export default meta;
@@ -23,44 +23,44 @@ const invoices = [
     invoice: 'INV001',
     paymentStatus: 'Paid',
     totalAmount: '$250.00',
-    paymentMethod: 'Credit Card',
+    paymentMethod: 'Credit Card'
   },
   {
     invoice: 'INV002',
     paymentStatus: 'Pending',
     totalAmount: '$150.00',
-    paymentMethod: 'PayPal',
+    paymentMethod: 'PayPal'
   },
   {
     invoice: 'INV003',
     paymentStatus: 'Unpaid',
     totalAmount: '$350.00',
-    paymentMethod: 'Bank Transfer',
+    paymentMethod: 'Bank Transfer'
   },
   {
     invoice: 'INV004',
     paymentStatus: 'Paid',
     totalAmount: '$450.00',
-    paymentMethod: 'Credit Card',
+    paymentMethod: 'Credit Card'
   },
   {
     invoice: 'INV005',
     paymentStatus: 'Paid',
     totalAmount: '$550.00',
-    paymentMethod: 'PayPal',
+    paymentMethod: 'PayPal'
   },
   {
     invoice: 'INV006',
     paymentStatus: 'Pending',
     totalAmount: '$200.00',
-    paymentMethod: 'Bank Transfer',
+    paymentMethod: 'Bank Transfer'
   },
   {
     invoice: 'INV007',
     paymentStatus: 'Unpaid',
     totalAmount: '$300.00',
-    paymentMethod: 'Credit Card',
-  },
+    paymentMethod: 'Credit Card'
+  }
 ];
 
 export const Default: Story = {
@@ -92,5 +92,5 @@ export const Default: Story = {
         </TableRow>
       </TableFooter>
     </Table>
-  ),
+  )
 };
