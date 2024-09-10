@@ -3,7 +3,7 @@ import React from 'react';
 import Link from 'next/link';
 
 import { cn } from '@/lib/utils';
-import { Icons } from './icons';
+import { Icons } from './utils/icons';
 import {
   NavigationMenu,
   NavigationMenuContent,
